@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+#plot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+/* Command Panel */
+.command-bar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.85);
+  border: 1px solid #2a2a2a;
+  padding: 14px 16px;
+  border-radius: 8px;
+  backdrop-filter: blur(6px);
+  max-width: 600px;
+  width: calc(100% - 40px);
+}
+
+.command-bar h1 {
+  font-size: 1.25rem;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.command-bar p {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.command-bar input {
+  width: 100%;
+  padding: 10px 14px;
+  background: #111;
+  color: #00ffcc;
+  border: 1px solid #333;
+  font-size: 1rem;
+  font-family: inherit;
+  border-radius: 4px;
+}
+
+.command-bar input:focus {
+  outline: none;
+  border-color: #666;
+  background: #181818;
+}

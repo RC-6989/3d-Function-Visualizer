@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>3D Function Visualizer</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.11.1/math.min.js"></script>
+</head>
+<body>
+  <div id="plot"></div>
+
+  <div class="command-bar">
+    <h1>3D Function Visualizer</h1>
+    <p>Enter function using <code>x</code> (and optional <code>t</code> for time):</p>
+    <input id="functionInput" placeholder="e.g. cos(x+t)sin(y−t)" onkeydown="if(event.key==='Enter') plotFunction()" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
