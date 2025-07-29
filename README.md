@@ -8,7 +8,7 @@ Features
 - Animates plots in real time when t is present in the expression
 
 Constraints
-Input must be a valid math.js expression; invalid syntax triggers an error
+- Input must be a valid math.js expression; invalid syntax triggers an error
 - Functions must return real values for plotting; complex outputs are coerced using the real component
 - Domain for both x and y is fixed between -10 and 10 with a step size of 0.5
 - Performance may degrade for highly complex functions or on low-end devices due to dense 3D rendering
