@@ -1,4 +1,4 @@
-#Real-Time 3D Function Grapher
+Real-Time 3D Function Grapher
 A web-based tool for visualizing 3D mathematical functions with optional time-based animations. Users can input expressions in terms of x, y, and optionally t to generate animated or static 3D plots.
 
 Features
